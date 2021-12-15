@@ -26,7 +26,7 @@ body {
 .cabecalho {
     background-color: rgba(38, 0, 255, 0.123);
     color: white;
-    width: 1500px;
+    width: 100vw;
     height: 100px;
     display: flex;
     align-items: center;
