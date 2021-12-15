@@ -24,7 +24,8 @@ body {
 }
 
 .cabecalho {
-    background-color: aqua;
+    background-color: rgba(38, 0, 255, 0.123);
+    color: white;
     width: 1500px;
     height: 100px;
     display: flex;
