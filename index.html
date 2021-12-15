@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>API APOD</title>
+</head>
+
+<body>
+    <div>
+        <header class="cabecalho">
+
+            <h1>API APOD</h1>
+
+            <h1>Bem vindo!</h1>
+
+        </header>
+
+        <div class="dataEscolhida">
+            <label>Escolha a data da imagem:</label>
+            <input type="date" id="data" required>
+
+            <button id="btn" class="btn">Pesquisar</button>
+
+        </div>
+        <section class="teste">
+
+            <div class="produto">
+                <h1 id="tituloFoto"></h1>
+
+                <div id="diaFoto"></div>
+
+                <iframe id="video"></iframe>
+            </div>
+
+            <div class="texto">
+                <p id="textoImagem" class="frase"></p>
+            </div>
+
+        </section>
+
+        <div class="rodaPe">
+
+            <p>&copy; Todos os direitos reservados!</p>
+
+        </div>
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
